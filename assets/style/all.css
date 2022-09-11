@@ -12244,6 +12244,10 @@ fieldset:disabled .btn {
           writing-mode: vertical-lr !important;
 }
 
+.text-indent-0 {
+  text-indent: 0 !important;
+}
+
 .text-indent-2 {
   text-indent: 0.2em !important;
 }
@@ -13981,6 +13985,9 @@ fieldset:disabled .btn {
     -webkit-writing-mode: vertical-lr !important;
         -ms-writing-mode: tb-lr !important;
             writing-mode: vertical-lr !important;
+  }
+  .text-indent-sm-0 {
+    text-indent: 0 !important;
   }
   .text-indent-sm-2 {
     text-indent: 0.2em !important;
@@ -15720,6 +15727,9 @@ fieldset:disabled .btn {
         -ms-writing-mode: tb-lr !important;
             writing-mode: vertical-lr !important;
   }
+  .text-indent-md-0 {
+    text-indent: 0 !important;
+  }
   .text-indent-md-2 {
     text-indent: 0.2em !important;
   }
@@ -17457,6 +17467,9 @@ fieldset:disabled .btn {
     -webkit-writing-mode: vertical-lr !important;
         -ms-writing-mode: tb-lr !important;
             writing-mode: vertical-lr !important;
+  }
+  .text-indent-lg-0 {
+    text-indent: 0 !important;
   }
   .text-indent-lg-2 {
     text-indent: 0.2em !important;
@@ -19196,6 +19209,9 @@ fieldset:disabled .btn {
         -ms-writing-mode: tb-lr !important;
             writing-mode: vertical-lr !important;
   }
+  .text-indent-xl-0 {
+    text-indent: 0 !important;
+  }
   .text-indent-xl-2 {
     text-indent: 0.2em !important;
   }
@@ -20934,6 +20950,9 @@ fieldset:disabled .btn {
         -ms-writing-mode: tb-lr !important;
             writing-mode: vertical-lr !important;
   }
+  .text-indent-xxl-0 {
+    text-indent: 0 !important;
+  }
   .text-indent-xxl-2 {
     text-indent: 0.2em !important;
   }
@@ -21424,8 +21443,13 @@ input[type="radio"] {
   border-bottom: 1px solid rgba(22, 26, 20, 0.7);
 }
 
+.nav-tabs .nav-link {
+  color: #161A14;
+}
+
 .nav-tabs .nav-link.active {
   border-color: rgba(22, 26, 20, 0.7) rgba(22, 26, 20, 0.7) #F0F0F0;
+  color: #68715F;
 }
 
 .loading-overlay {
