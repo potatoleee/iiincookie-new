@@ -21190,7 +21190,7 @@ input[type="radio"] {
 
 .swiper-img {
   position: absolute;
-  width: 61%;
+  width: 65%;
   top: 0;
   left: 0;
 }
@@ -21237,7 +21237,7 @@ input[type="radio"] {
 }
 
 .swiper .share__card {
-  width: 48.5981%;
+  width: 60%;
   color: #161A14;
   position: absolute;
   right: 0;
@@ -21267,9 +21267,10 @@ input[type="radio"] {
 
 @media (max-width: 991px) {
   .swiper .share__card__img {
-    width: 80px;
-    height: 80px;
+    width: 72px;
+    height: 72px;
     top: -40px;
+    right: 16px;
   }
 }
 
