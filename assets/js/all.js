@@ -57,7 +57,7 @@ $(document).ready(function () {
   $('.pagetop').on('click', function () {
     $('html,body').animate({
       scrollTop: 0
-    }, 1000);
+    }, 100);
   }); // scoll end
   //  漢堡選單 start
 
